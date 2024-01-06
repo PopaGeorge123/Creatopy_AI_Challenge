@@ -15,4 +15,4 @@ A repository that contains the solution to Creatopy`s Challenge
   Would implement capability that user could edit any content of the ad including position, size , colour and font famillies.
 
 
-
+UFORTUNATELY I didn`t managed my time well so i could host this app online. Anyway there are some screenshot examples.
