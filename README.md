@@ -4,6 +4,7 @@ A repository that contains the solution to Creatopy`s Challenge
 >>The features I implemented and why you chose them:
   I liked my solution to be one easy to use for everyone. It contains a simple and intuitive interface. All the have to do is to write a detailed description of the ad he wants to generate.
   When generating Title Image Description and Call To Action I designed 4 different requests to the API so the response could be more variated. I an councious about greater data consumption but it is worth it.
+  To speed up the development process I used nodemon module. Structured code into Server and Client side.
 
 >>Challenges I faced and how you overcame them.
   I struggled with setting each template aspect ratio acording to each style class. After a few searches online , i finally achived what I expected.
