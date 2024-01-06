@@ -9,6 +9,9 @@ const port = process.env.PORT || 3001;
 app.use(cors()); //ENABLE Cross Origin Requests
 
 //IN CASE
+app.get('/', async (req, res) => {
+  res.send("THIS API GENERATE AI ADS")
+});
 
 app.get('/api/generate', async (req, res) => {
   console.log("Fetched");
