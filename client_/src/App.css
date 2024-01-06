@@ -1,0 +1,235 @@
+body{
+    background-image:url('../public/1.jpg');
+    background-size:cover; /* cover */
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  
+  .main-container{
+    position: absolute;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(25px);
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    border: solid 2px rgb(105, 105, 105);
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .aspect-ratio-select{
+    /* background-color: blue; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+  }
+  
+  .aspect-ratio-button{
+    background-color: rgb(24, 24, 255);
+    color: white;
+    width: 170px;
+    padding: 5px;
+    margin: 2px;
+    border: solid 1px rgb(144, 144, 233);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .selected-button{
+    background-color: rgb(0, 0, 150);
+    height: 50px;
+  }
+  
+  
+  
+  .banner-preview{
+    /* background-color: rgb(0, 0, 83); */
+    width: 100%;
+    padding: 30px;
+    overflow: hidden;
+  }
+
+
+  /* .CallToActionBtn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 0%, white 200%);
+    -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"><linearGradient id="g" gradientUnits="userSpaceOnUse"><stop stop-color="white" offset="0" stop-opacity="0"/><stop stop-color="white" offset=".2" stop-opacity="1"/><stop stop-color="white" offset=".8" stop-opacity="1"/><stop stop-color="white" offset="1" stop-opacity="0"/></linearGradient><rect x="0" y="0" width="1" height="1" fill="url(%23g)"/></svg>');
+    mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"><linearGradient id="g" gradientUnits="userSpaceOnUse"><stop stop-color="white" offset="0" stop-opacity="0"/><stop stop-color="white" offset=".2" stop-opacity="1"/><stop stop-color="white" offset=".8" stop-opacity="1"/><stop stop-color="white" offset="1" stop-opacity="0"/></linearGradient><rect x="0" y="0" width="1" height="1" fill="url(%23g)"/></svg>') top left / 100% 100%;
+    mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"><linearGradient id="g" gradientUnits="userSpaceOnUse"><stop stop-color="white" offset="0" stop-opacity="0"/><stop stop-color="white" offset=".2" stop-opacity="1"/><stop stop-color="white" offset=".8" stop-opacity="1"/><stop stop-color="white" offset="1" stop-opacity="0"/></linearGradient><rect x="0" y="0" width="1" height="1" fill="url(%23g)"/></svg>') top left / 100% 100%;
+    mask-composite: source-over;
+  } */
+
+
+ 
+  
+  .user-input{
+    background-color: white;
+    /* background-color: rgb(144, 144, 233); */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ad-description-input{
+    margin: 10px;
+    width: 170px; 
+    height: 84px;
+    border-radius: 7px;
+    padding: 4px;
+    font-size: 15px;
+    resize: none;
+  }
+  .generate-button{
+    background-color: rgb(24, 24, 255);
+    color: white;
+    width: 170px;
+    height: 50px;
+    padding: 5px;
+    margin: 2px;
+    border: solid 1px rgb(144, 144, 233);
+    border-radius: 10px;
+  }
+
+
+
+  /* TEMPLATE AD ==============================================================*/
+  
+  .template1{
+    background: white;
+    background-size:contain; /* cover */
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    border: solid 1px black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px 2px rgb(46, 46, 46);
+  }
+
+  .ad_title1{
+    color: white;
+    font-size: 45px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .ad_desc1{
+    margin-top: -100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .ad_btn1{
+    position: relative;
+    margin: 10px;
+    background-color: rgb(0, 0, 255);
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+/* ==================================== */
+.template2{
+  background: white;
+  background-size:contain; /* cover */
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  border: solid 1px black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px 20px 2px rgb(46, 46, 46);
+}
+  .ad_title2{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 45px;
+    margin: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .ad_desc2{
+    margin-right: -150px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: right;
+  }
+  .ad_btn2{
+    position: relative;
+    margin: 10px;
+    margin-top: 110%;
+    background-color: rgb(0, 0, 255);
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  /* ==================================== */
+.template3{
+  background: white;
+  background-size:contain; /* cover */
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  border: solid 1px black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px 20px 2px rgb(46, 46, 46);
+}
+  .ad_title3{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 45px;
+    margin: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .ad_desc3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 5px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+  }
+  .ad_btn3{
+    position: relative;
+    margin: 10px;
+    margin-top: 110%;
+    background-color: rgb(0, 0, 255);
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  

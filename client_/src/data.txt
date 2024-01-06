@@ -1,0 +1,15 @@
+
+              selectedAspectRatio
+                ? {
+                    width: `${aspectRatios[selectedAspectRatio].width}px`,
+                    height: `${aspectRatios[selectedAspectRatio].height}px`,
+
+                    backgroundImage:`url(${responseData.data === undefined ?'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg' : key.imageUrl})`
+                  }
+                : {}
+
+                <div className="banner-preview-div" style={}></div>
+                  
+            <div><h1>VPN PRO</h1></div>
+            <div><p>Welcome to Brand Name</p></div>
+            <div><button>BUY NOW</button></div>
