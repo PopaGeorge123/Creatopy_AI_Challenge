@@ -19,3 +19,4 @@ I enjoy the fact that I had the opportunity to code an application, and it turne
   * Would implement capability that user could edit any content of the ad including position, size , colour and font famillies.
 
 ## In the ScreenShot folder there are some examples of the app.
+### Video Example at https://drive.google.com/drive/u/0/folders/1rHAZp8y4mFCISqxYW63pn_fmCSPzhumX?q=parent:1rHAZp8y4mFCISqxYW63pn_fmCSPzhumX%20sharedwith:public
